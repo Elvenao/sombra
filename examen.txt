@@ -1,0 +1,14 @@
+Realizar un programa que controle el funcionamiento de dos bombas de agua, instaladas en  un edificioo. El sistema de control funcionara de la siguiente manera, 
+cuenta con 4 sensores para indicar la cantidad de agua, tanto en la cisterna como en el tinaco , para los dos casos uno en la parte de arriba 
+y el otro en la parte de abajo, dos sensores de tempertura uno en cada bombda. 
+El sistema tambien contara con un LCD, para monitorear el funcionamiento.
+
+a)La bomba funcionara si la cisterna se encuentra llena y medio llena, elLCD aparece que bomba esta trabajando "bomba_"(en el guion bajo se coloca
+1 0  2 dependiendo la bomba que este funcionando).
+b) La bomba_deja de funcionar cuando se encuentre lleno el tinaco, aparece en el LCD "lleno".
+c)Para evitar calentamientos, las bombas se rotan. 
+d)La boba_ no funcionara si no se tiene agua en la cisterna, en el LCD DEBERA aparecer "cisterna vacia" el cual se 
+  quedara parpadenado, al igual que la señal visual, solo se detiene si se activa el reset
+e) si llegara a pasar que se active un sensor de temperatura de cualquiera de las 2 bombas, el sistema lo
+  indicara en el LCD "Bomba_Se calento"  deja pasar 2 segundos, y se rota a la siguiente bomba.
+f) Para indicar que el sistema esta activo un led´s estara prendido
